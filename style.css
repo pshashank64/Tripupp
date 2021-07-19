@@ -1,0 +1,643 @@
+
+header {
+    position: relative;
+    height: 500px;
+    background-image: linear-gradient(to right, #f340ff, #234c81);
+  }
+  
+.bg-img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vw;
+    /* set height to pixels if you want angle to change with screen width */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin: 25px 25px 0px 25px;
+    font-size: 17px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home{
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+}
+.logo{
+    margin: 20px 0px 0px 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sign{
+    margin: 20px 30px 0px 0px;
+    position: relative;
+}
+nav div span{
+    font-size: 18px;
+    color: white;
+    margin: 26px 0px 0px 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.E{
+    display: flex;
+    justify-content: space-between;
+}
+.add-new-E span{
+    position: absolute;
+    margin: 10px 0px 0px 40px;
+    color: white;
+}
+.image-w img{
+    border-radius: 50%;
+    position: absolute;
+    margin: -150px 0px 0px 35px;
+}
+.small-2{
+    background-color: white;
+    display: flex;
+    box-shadow: 4px 4px 8px 6px rgb(153, 151, 151);
+    margin: 150px 0px 0px 0px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 10;
+}
+.small-2 img{
+    border-radius: 50%;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.small-2 p{
+    padding: 10px 10px 0px 0px;
+    margin: 0;
+    font-size: 15px;
+}
+.small-2 span{
+    font-size: 11px;
+}
+.money{
+    padding: 10px 10px 0px 10px;
+}
+.money span{
+    background-color: lightcoral;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.fa-search{
+    display: flex;
+    position: absolute;
+    color: #e6e1e7;
+    margin: 15px 0px 0px 400px;
+}
+
+.try-for-free{
+    margin-left: 150px;
+}
+.try-for-free span{
+    font-size: 20px;
+    color: wheat;
+    margin: 7px 0px 0px 40px;
+}
+.wh{
+    color: white;
+    font-size: 51px;
+    margin: 35px 100px 0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.email-A{
+    margin-top: 35px;
+    position: absolute;
+    background-image: linear-gradient(to right, #de6de6, #e6e1e7);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.submit-button{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(35, 35, 212);
+    margin: 8px;
+    padding: 5px;
+}
+.email-input{
+    border: none;
+    background-color: inherit;
+    color: white;
+}
+.job-det{
+    position: absolute;
+    margin-top: 70px;
+    right: 0;
+    background-color: white;
+    box-shadow: 4px 4px 8px 6px rgb(153, 151, 151);
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.job-det h4{
+    /* padding: 10px 100px 20px 150px; */
+    margin: 10px 150px 20px 50px;
+}
+.job-det p{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+.job{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    background-color: lightblue;
+    margin: 0;
+    padding: 5px 20px 5px 20px;
+}
+.title i{
+    color: #b87b20;
+}
+.desc{
+    position: absolute;
+    margin-top: 130px;
+    font-weight: 100;
+    font-size: 20px;
+    color: gray;
+}
+
+/* End of the header part */
+
+.horizondal-menu{
+    margin: 150px;
+    color: #3280da;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.section-2{
+    background-color: #e5f9ff;
+    padding-bottom: 90px;
+    
+}
+.head{
+    display: flex;
+    padding: 50px 0px 0px 40px;
+    color: #65bad0
+}
+.head h5{
+    margin-top: 40px;
+}
+.head h1{
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.candidate{
+    margin: 40px 0px 0px 150px;
+    padding-bottom: 20px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 6px rgb(153, 151, 151);
+}
+.candidate h5{
+    padding: 10px 0px 0px 20px;
+}
+.candidate p{
+    padding-left: 20px;
+}
+.dear{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 25px;
+    border: 2px solid lightblue;
+    margin: 10px 50px 25px 40px;
+}
+.pos{
+    margin-top: 20px;
+}
+.pos span{
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: bold;
+    color: #3280da;
+}
+
+.pos p{
+    font-size: 13px;
+    margin-bottom: 1;
+    padding-left: 0;
+    font-weight: bold;
+}
+
+.pos input{
+    padding: 5px 10px 5px 10px;
+    background-color: #65bad0;
+    border: none;
+    border-radius: 5px;
+}
+
+.job-det-2{
+    position: absolute;
+    width: 400px;
+    right: 190px;
+    margin-top: -700px;
+    background-color: white;
+    box-shadow: 4px 4px 8px 6px rgb(153, 151, 151);
+    border-radius:10px;
+}
+.job-det-2 h4{
+    /* padding: 10px 100px 20px 150px; */
+    margin: 10px 150px 20px 50px;
+}
+.job-det-2 p{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.job-det-3{
+    position: absolute;
+    width: 400px;
+    right: 190px;
+    margin-top: -320px;
+    background-color: white;
+    box-shadow: 4px 4px 8px 6px rgb(153, 151, 151);
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.job-det-3 h3{
+    /* padding: 10px 100px 20px 150px; */
+    margin: 10px 0px 20px 30px;
+}
+.job-det-3 p{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+
+.head-emp p{
+    margin-top: 20px;
+    color: rgb(142, 126, 216);
+    font-size: 13px;
+    font-weight: bold;
+}
+.thumbnail{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 30px 0px 30px;
+}
+.thumbnail img{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+.thumbnail div{
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 4px 1px lightgray;
+    border-radius: 10px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 15px;
+}
+.thumbnail p{
+    
+    font-size: 12px;
+    margin: 7px;
+    font-weight: bold;
+    color: #bdbdbd;
+} 
+
+/* End of section 2 */
+
+.section-3{
+    position: relative;
+    height: 590px;
+    /* background-image: linear-gradient(to right, #f340ff, #234c81); */
+}
+.bg-img2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vw;
+}
+.content-sec-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px 0px 200px;
+}
+.content-sec-3 p{
+    margin-top: 20px;
+    color: #98d0e0;
+    font-weight: 500;
+}
+
+.section-4{
+    position: relative;
+    height: 150vh;
+    background-color: #002c85;
+}
+
+.bg-img3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vw;
+}
+.section-4 h1{
+    color: white;
+}
+
+.cont-sec-4{
+    display: flex;
+}
+.benefits{
+    background-color: white;
+    width: 350px;
+    height: 600px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin: 50px 0px 0px 150px;
+    box-shadow: 4px 4px 8px 6px rgb(35, 75, 206);
+}
+.benefits h3{
+    padding: 15px 0px 0px 30px;
+    font-weight: bold;
+}
+.benefits p{
+    padding: 5px 0px 0px 30px;
+    font-weight: 500;
+}
+.blue{
+    border: 3px solid #f99370;
+    border-radius: 10px;
+    margin: 0px 20px 0px 20px;
+}
+.blue h1{
+    color: black;
+    padding-left: 20px;
+}
+.blue i{
+    margin: 10px 10px 0px 250px;
+    font-size: 30px;
+    color: #f99370;
+}
+
+.card{
+    position: absolute;
+    right: 350px;
+    width: 450px;
+    height: 230px;
+    margin: 50px 0px 0px 60px;
+    border-radius: 7px;
+    box-shadow: -4px -4px 6px 1px rgb(9, 151, 199);
+    background-image: linear-gradient(to right, #fffbd1, #f9a174);
+}
+
+.name-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px 0px 30px;
+}
+.name-card p{
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 2px;
+}
+.card-num{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 20px 0px 30px;
+}
+.card-num h1{
+    font-size: 35px;
+    color: black;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif
+}
+.cvv{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 35px;
+}
+.cvv p{
+    color: #7a7a7a;
+    margin-top: -13px;
+    font-size: 12px;
+}
+.exp-date{
+    display: flex;
+}
+.exp-date h3{
+    margin: -13px 0px 0px 8px;
+    color: #7a7a7a;
+    font-size: 25px;
+}
+.card-end{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 20px 30px;
+}
+.card-end h3{
+    font-size: 20px;
+}
+.card-logo{
+    display: flex;
+    margin-top: -10px;
+}
+.l1{
+    margin-right: -25px;
+}
+
+.benefits-2{
+    margin: 380px 0px 0px 50px;
+    border-radius: 10px;
+    width: 650px;
+    height: 350px;
+    box-shadow: -4px -4px 6px 1px rgb(9, 151, 199);
+    background-color: white;
+    padding: 10px 0px 0px 20px;
+}
+.inner-box{
+    display: flex;   
+    justify-content: space-between;
+    overflow: hidden;
+}
+.b{
+    height: 200px;
+    margin: 10px 0px 0px 10px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: -4px -4px 4px 4px lightgray;
+}
+.b:nth-child(2n){
+    margin-top: 70px;
+}
+/* end of section 4 */
+
+.section-5{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 230px 20px 230px;
+}
+
+.section-5 p{
+    color: #85c8da;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* end of section 5 */
+
+.section-6{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 200px 80px 200px;
+}
+
+.section-6 h1{
+    line-height: 55px;
+    font-weight: 500;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section-6 p{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #919191;
+}
+
+/* end of section 6 */
+
+.section-7{
+    background-color: #e5f9ff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.section-7 h1{
+    margin-left: 200px;
+    position: relative;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section-7 svg{
+    margin-top: -70px;
+}
+
+.sec7-cont{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 90px 0px 90px;
+}
+
+.cont7{
+    background-color: white;
+    height: 450px; color: #515151;
+    padding: 50px 55px 0px 40px;
+    border: 1px solid lightgrey;
+    width: 250px;
+}
+.cont7:nth-child(2n){
+    margin-top: 60px;
+}
+.cont7 h4{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.cont7 p{
+    font-weight: 450;
+}
+
+.bg-img4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15vw;
+}
+
+/* end of section 7 */
+
+.section-8{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.section-8 h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 545;
+    margin: 100px 0px 100px 250px;
+}
+
+.section-8 input{
+    margin: 150px 250px 100px 0px;
+    border: none;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding: 20px 50px;
+    background-image: linear-gradient(to right, #df00ea, #75007a);
+}
+
+/* end of section 8 */
+
+.section-9 h1{
+    margin: 30px 0px;
+}
+
+.sec-9-button{
+    margin: 30px 0px;
+}
+
+.section-9 input{
+    margin-top: 25px;
+    border: none;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    padding: 17px 50px;
+    background-image: linear-gradient(to right, #df00ea, #75007a);
+}
+
+/* end of section 9 */
+
+.section-10{
+    display: flex;
+    justify-content: space-between;
+}
+.m{
+    margin: 30px 110px 20px 110px;
+}
+.section-10 h3{
+    margin-bottom: 30px;
+}
+.section-10 p{
+    font-size: 20px;
+}
+.social{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* End of the project */
