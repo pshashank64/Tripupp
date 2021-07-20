@@ -209,6 +209,7 @@ nav div span{
     padding-bottom: 20px;
     width: 500px;
     background-color: white;
+    transition: 2s;
     border-radius: 10px;
     box-shadow: 4px 4px 8px 6px rgb(153, 151, 151);
 }
@@ -255,6 +256,7 @@ nav div span{
     width: 400px;
     right: 190px;
     margin-top: -700px;
+    transition: 2s;
     background-color: white;
     box-shadow: 4px 4px 8px 6px rgb(153, 151, 151);
     border-radius:10px;
@@ -643,6 +645,15 @@ nav div span{
 
 /* End of the project */
 /* Now lets work for the animations */
+
+.bef{
+    opacity: 0;
+    margin: 40px 0px 0px 0px;
+}
+.af{
+    opacity: 1;
+}
+
 
 .hide {
     opacity:0;
