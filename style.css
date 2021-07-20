@@ -182,6 +182,7 @@ nav div span{
     color: #3280da;
     display: flex;
     justify-content: space-between;
+    transition: 3s;
     width: 80%;
 }
 
@@ -642,6 +643,14 @@ nav div span{
 
 /* End of the project */
 /* Now lets work for the animations */
+
+.hide {
+    opacity:0;
+}
+.show {
+    opacity:1;
+}
+
 
 .anim-7{
     position: relative;
