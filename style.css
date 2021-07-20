@@ -641,3 +641,18 @@ nav div span{
 }
 
 /* End of the project */
+/* Now lets work for the animations */
+
+.anim-7{
+    position: relative;
+    animation-duration: 1s;
+}
+.anim-7:hover{
+    animation-name: anim-7-anim;
+}
+
+@keyframes anim-7-anim {
+    0%   {left:0px; top:0px;}
+    55%  {left:0px; top:50px;}
+    100% {left:0px; top:0px;}
+  }
