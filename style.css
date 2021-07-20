@@ -340,6 +340,10 @@ nav div span{
     justify-content: space-between;
     margin: 100px 200px 0px 200px;
 }
+.flaticons{
+    position: relative;
+    animation-duration: 1s;
+}
 .content-sec-3 p{
     margin-top: 20px;
     color: #98d0e0;
@@ -652,6 +656,15 @@ nav div span{
 }
 .af{
     opacity: 1;
+}
+
+.flaticons:hover{
+    animation-name: anim-flaticons;
+}
+@keyframes anim-flaticons {
+    0%   {left:0px; top:0px;}
+    55%  {left:0px; top:50px;}
+    100% {left:0px; top:0px;}
 }
 
 
